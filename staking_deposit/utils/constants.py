@@ -18,11 +18,11 @@ MAX_DEPOSIT_AMOUNT = 2 ** 5 * ETH2GWEI
 
 
 # File/folder constants
-WORD_LISTS_PATH = os.path.join('staking_deposit', 'key_handling', 'key_derivation', 'word_lists')
+WORD_LISTS_PATH = os.path.join( 'key_handling', 'key_derivation', 'word_lists')
 DEFAULT_VALIDATOR_KEYS_FOLDER_NAME = 'validator_keys'
 
 # Internationalisation constants
-INTL_CONTENT_PATH = os.path.join('staking_deposit', 'intl')
+INTL_CONTENT_PATH = os.path.join( 'intl')
 
 
 def _add_index_to_options(d: Dict[str, List[str]]) -> Dict[str, List[str]]:
